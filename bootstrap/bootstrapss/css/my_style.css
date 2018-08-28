@@ -1,0 +1,215 @@
+.index_nav{
+	background:#224669;
+}
+.my_nav li{
+	width: 120px;
+	text-align:center;
+	margin-top:12px;
+}
+.my_nav li a{
+	font-size:18px;
+	color:#fff;
+	display:inline-block;
+}
+.my_nav li a:hover{
+	border-bottom:3px solid #fff;
+	font-weight:bold;
+}
+.logo_a{
+	display:inline-block;
+	margin-top:5px;
+}
+.my_content{
+	background: #eff2f5;
+}
+.my_jum{
+	background: none;
+	padding-top: 101px;
+}
+.my_jum h1{
+	color:#666;
+	font-size:2.9em;
+	margin-bottom:55px;
+}
+.colef7{
+	color:#ef7102;
+}
+.my_jum .recent{
+	font-size:14x;
+	color:#666;
+}
+.my_jum .my_btn{
+	margin-bottom:55px;
+}
+.my_post{
+	width: 280px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 30px;
+	margin-bottom:20px;
+}
+.set_posi{
+	background:url("../../images/banner/indexaftpic.png") no-repeat 10px 5px #ef7102;
+	margin-right:40px;
+}
+.search_job
+{
+	background:url("../../images/banner/indexaftpic.png") no-repeat 10px -70px #2F9DDF;
+}
+.my_service{
+	background:#fff;
+	border:1px solid #dddee4;
+	width:100%;
+	margin-bottom:40px;
+}
+.my_service h3{
+	text-align:left;
+	padding-left:20px;
+	padding-bottom:10px;
+	border-bottom:1px solid #e3e3e3;
+}
+.borB {
+    border-bottom: 1px solid #e5e5e5;
+}
+.dlo{
+	float: left;
+	height:auto;
+	padding:15px 20px 20px 30px;
+	margin-bottom:15px;
+}
+.dlo:hover{
+	 box-shadow: 0px 3px 5px rgba(0,0,0, .29);
+}
+.dlo dt{
+	width: 120px;
+	height: 120px;
+}
+.dlo dt.post{
+    background: url("../../images/banner/indexaftpic.png") no-repeat -2px -152px;
+    float:left;
+}
+.dlo dd{
+	float: left;
+	width: 310px;
+	height: 120px;
+	padding-left: 15px
+}
+.dlo dd div.first {
+	height: 40px;
+	line-height: 40px;
+}
+.dlo dd div.first span {
+	float: right;
+	color: #ef7102;
+	font: 600 14px/40px "simsun";
+}
+.dlo dd div.first a {
+	color: #348FCA;
+	font: 600 14px/40px "simsun";
+	float:left;
+}
+.dlo dd div.second {
+	height: 50px;
+	line-height: 20px;
+	color:#999;
+	text-align:left;
+}
+.dlo dd div.third {
+	background-color: #EFF2F5;
+	height: 30px;
+	line-height: 30px;
+	font-family: "simsun";
+	padding-left: 10px;
+	text-align:left;
+}
+.dlo dd div.third a {
+	float: right;
+	color: #348fca;
+	padding-right: 10px;
+}
+.dlo dt.olive {
+	background: url("../../images/banner/indexaftpic.png") no-repeat -2px -572px;
+	float: left;
+}
+.dlo dt.jobtop {
+	background: url("../../images/banner/indexaftpic.png") no-repeat -2px -293px;
+	float: left;
+}
+.dlo dt.rdl {
+	background: url("../../images/banner/indexaftpic.png") no-repeat -2px -717px;
+	float: left;
+}
+.dlo dt.refresh {
+	background: url("../../images/banner/indexaftpic.png") no-repeat -2px -433px;
+	float: left;
+}
+.dlo dt.more {
+	background: url("../../images/banner/indexaftpic.png") no-repeat -2px -856px;
+	float: left;
+}
+.dlo dd div.fourth {
+	font: 600 14px/14px "simsun";
+	color: #999;
+	padding-top: 45px;
+}
+
+@media screen and (min-width:750px) and (max-width:980px){
+	.dlo dd {
+		float: left;
+		max-width: 495px;
+		width:100%;
+		height: 120px;
+		padding-left: 51px;
+		}
+}
+/*@media screen and (min-width:568px) and (max-width:750px){
+	.dlo dd {
+		float: left;
+		width: 390px;
+		height: 120px;
+		padding-left: 23px;
+		}
+}*/
+@media screen and (min-width:474px) and (max-width:568px){
+	.dlo dd {
+		float: left;
+		width:100%;
+		max-width: 462px;
+		height: 120px;
+		padding-left: 50px;
+		}
+}
+@media screen and (max-width:474px){
+		.dlo dd {
+			float: left;
+			width:100%;
+			max-width: 344px;
+			height: 120px;
+			}
+}
+@media screen and (max-width:768px){
+	.set_posi{margin-right:0px;}
+}
+.my_footer{
+	padding: 17px 0 18px 0;
+    border-top: 3px solid #348fca;
+}
+.my_footer p span{
+	padding-right:8px;
+	color:#666;
+}
+.my_pass{
+	background: #009944;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+}
+@media screen and (min-width:768px) and (max-width:992px){
+	.my_pass{margin-top:40px;}
+}
+@media screen and (max-width:768px){
+	.my_nav li a:hover{
+	font-weight:bold;
+	border-bottom:none;
+    }
+}
